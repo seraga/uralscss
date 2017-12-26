@@ -1,0 +1,5 @@
+node_modules
+
+src/js/urals.js
+src/js/layout.js
+yarn.lock

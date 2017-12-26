@@ -1,0 +1,22 @@
+///*------------------------------------*\
+//    #PAGE
+//\*------------------------------------*/
+
+$page-font-weight: 400;
+$page-font-size: 16px;
+$page-line-height: 1.33;
+$page-font-family: "Open Sans", Arial, sans-serif;
+
+
+
+
+
+body {
+  font-weight: $page-font-weight;
+  font-size: $page-font-size;
+  line-height: $page-line-height;
+  font-family: $page-font-family;
+
+  color: $black;
+  background-color: $white;
+}

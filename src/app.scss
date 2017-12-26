@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    #VEGA-DAY
+\*------------------------------------*/
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Colors...............Manage our color palette.
+ * Responsive...........Set up and name our breakpoints.
+ *
+ * RESET
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Page.................Page-level styles (HTML element).
+ * Headings.............Heading styles.
+ * Type.................Misc type styles.
+ * Lists................List styles.
+ * Images...............Image element styling.
+ * Animations...........@keyframes for animations.
+ *
+ * COMPONENTS
+ * Navigation...........Site’s main navigation area.
+ *
+ * TRUMPS
+ * Show/hide............Helpers to show and hide stuff.
+ * Atomic...............Utility classes (automatically created).
+ */
+
+
+
+
+
+/**
+ * #IMPORTS
+ */
+
+@import
+  'scss/settings.colors',
+  'scss/settings.responsive';
+
+@import
+  'scss/reset.normalize',
+  'scss/reset.box-sizing';
+
+@import
+'scss/base.page',
+'scss/base.headings',
+'scss/base.type',
+'scss/base.lists',
+'scss/base.images',
+'scss/base.animations';
+
+@import
+  'scss/components.navigation';
+
+@import
+  'scss/trumps.show-hide',
+  'scss/trumps.atomic';

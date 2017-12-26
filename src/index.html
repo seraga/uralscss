@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en" class="💎" id="⛰️">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UralsCss</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+
+<!-- page-head -->
+  <div class="page-head  [ fix  df  ai-cen  jc-sb  l(0,0,-,0)  hmin(60px)  bg(3f5fa7)  z(10) ]">
+    <a class="[ db  as-fs  fs(0)  w(40px)  ml(20px)  mt(10px) ]" href="https://github.com/seraga" target="_blank">
+      <svg width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+        <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"
+          fill="#fff" />
+      </svg>
+    </a>
+
+    <!-- navigation -->
+    <nav class="navigation  js  [ dfw  ml(a)  wmin(145px) ]">
+      <a class="navigation__link  navigation__link--active  [ c(fff) ]" href="#animation">Animation</a>
+      <a class="navigation__link  [ c(fff) ]" href="#typography">Typography</a>
+      <a class="navigation__link  [ c(fff) ]" href="#rwd">RWD</a>
+      <a class="navigation__link  [ c(fff) ]" href="#flex">Flex</a>
+      <a class="navigation__link  [ c(fff) ]" href="#grid">Grid</a>
+      <a class="navigation__link  [ c(fff) ]" href="#borders">Border</a>
+      <a class="navigation__link  [ c(fff) ]" href="#border-radius">Radius</a>
+      <a class="navigation__link  [ c(fff) ]" href="#color">Color</a>
+      <a class="navigation__link  [ c(fff) ]" href="#pseudo">Pseudo</a>
+      <span class="navigation__toggle [ l(14,16)  c(fff) ]">&#9776;</span><!-- ☰ -->
+    </nav>
+  </div>
+  <!-- end of page-head -->
+
+
+
+
+
+<!-- about -->
+  <section class="[ df  h(70vh)  c(fff)  bg(3f5fa7) ]">
+    <div class="[ dfc  ma(a) ]">
+      <h1 class="[ t(cen,70px,upn)  t(100px)@s  tt ]">UralsCss</h1>
+      <a class="[ as-cen  pa(15,30px)  t(w600,tdn)  c(fff)  r(p)  ba(cc)  h:scale(1.05)  tt(0.5) ]" href="./uralscss.min.js" download>
+        Download <span class="[ t(12px) ]">v0.9.0</span>
+      </a>
+    </div>
+
+  </section>
+  <!-- end of about -->
+
+
+
+  <!-- Getting Started -->
+  <section class="[ pa(20px)  pa(60px)@s  c(000)  bg(3f5fa7.1)  tt ]">
+    <h2 class="[ mb(30px)  t(30px,cap) ]">Getting started</h2>
+    <p>Download the "uralscss.js" and put it in the body of the html file.</p>
+    <pre class="[ ox ]">
+      &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+          &lt;title&gt; &lt;/title&gt;
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+          &lt;body&gt;
+            &lt;script src="uralscss.js"&gt;
+          &lt;/body&gt;
+      &lt;/html&gt;
+    </pre>
+    <p>Then try to write cool class names as you will see below.</p>
+  </section>
+
+
+
+
+
+<!-- Style guide -->
+  <section class="[ pa(20px)  pa(60px)@s  c(000)  bg(3f5fa7.1)  tt ]">
+    <h2 class="[ t(30px,cap) ]">Style guide</h2>
+
+
+
+
+
+    <!-- Animation -->
+    <article class="[ mb(50px)  pt(90px) ]" id="animation">
+      <h3 class="[ py(10px) bb(2) ]">Animation</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100)  w(50)@m ]">
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(swing,.4s,i) ]" title="swing"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(change,1.8s,i) ]" title="change"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(change2,1.8s,i) ]" title="change2"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(move,1.8s,i) ]" title="move"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(move2,1.8s,i) ]" title="move2"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(move3,1.8s,i) ]" title="move3"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(rotate-center,1.8s,i) ]" title="rotate-center"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(rotate-move,1.8s,i) ]" title="rotate-move"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(rotate-scale,1.8s,i) ]" title="rotate-scale"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(fade,1.8s,i) ]" title="fade"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(fade2,1.8s,i) ]" title="fade2"></div>
+          <div class="[ dib  pa(30px)  ma(40px)  bg(070)  r(5)  ani(shake,0.4s,i) ]" title="shake"></div>
+        </div>
+        <div class="[ df  w(100)  w(50)@m  pa(30px) ]">
+          <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+            <pre>class="<span class="b">ani(swing,.4s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(change,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(change2,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(move,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(move2,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(move3,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(rotate-center,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(rotate-move,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(rotate-scale,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(fade,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(fade2,1.8s,i)</span>"</pre>
+            <pre>class="<span class="b">ani(shake,1.8s,i)</span>"</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <div id="typography">
+      <!-- Typography - font size -->
+      <article class="[ mb(50px)  pt(90px) ]" >
+        <h3 class="[ py(10px)  bb(2) ]">Typography &ndash; font size</h3>
+        <div class="[ dfw ]">
+          <div class="[ w(100)  w(50)@m ]">
+            <p class="[ t(50px)  mb(20px) ]">Font size: 50px</p>
+            <p class="[ t(30px)  mb(20px) ]">Font size: 30px</p>
+            <p class="[ t(20px)  mb(20px) ]">Font size: 20px</p>
+            <p class="[ t(12px)  mb(20px) ]">Font size: 12px</p>
+          </div>
+          <div class="[ df  w(100)  w(50)@m  pa(30px) pt(10px)@m ]">
+            <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+              <pre>class="<span class="b">t(50px)</span>"</pre>
+              <pre>class="<span class="b">t(30px)</span>"</pre>
+              <pre>class="<span class="b">t(20px)</span>"</pre>
+              <pre>class="<span class="b">t(12px)</span>"</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+
+
+      <!-- Typography - text-align -->
+      <article class="[ mb(30px) ]">
+        <h3 class="[ py(10px)  bb(2) ]">Typography &ndash; text-align</h3>
+        <div class="[ dfw ]">
+          <div class="[ w(100)  w(50)@m ]">
+            <p class="[ t(l)  mb(20px) ]">Text align: left</p>
+            <p class="[ t(r)  mb(20px) ]">Text align: right</p>
+            <p class="[ t(cen)  mb(20px) ]">Text align: center</p>
+            <p class="[ t(j)  mb(20px) ]">Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. Text align: justify. </p>
+          </div>
+          <div class="[ df  w(100)  w(50)@m  pa(30px)  pt(10px)@m ]">
+            <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+              <pre>class="<span class="b">t(l)</span>"</pre>
+              <pre>class="<span class="b">t(r)</span>"</pre>
+              <pre>class="<span class="b">t(cen)</span>"</pre>
+              <pre>class="<span class="b">t(j)</span>"</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+
+
+      <!-- Typography - line-height -->
+      <article class="[ mb(30px) ]">
+        <h3 class="[ py(10px)  bb(2) ]">Typography &ndash; line-height</h3>
+        <div class="[ dfw ]">
+          <div class="[ w(100)  w(50)@m ]">
+            <p class="[ t(h1.4)  mb(20px)  bg(green.3) ]">Line-height: 1.4</p>
+            <p class="[ t(h2.4)  mb(20px)  bg(red.3) ]">Line-height: 2.4</p>
+            <p class="[ t(h54px)  mb(20px)  bg(blue.3) ]">Line-height: 54px</p>
+          </div>
+          <div class="[ df  w(100)  w(50)@m  pa(30px)  pt(0)@m ]">
+            <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+              <pre>class="<span class="b">t(h1.4)</span>"</pre>
+              <pre>class="<span class="b">t(h2.4)</span>"</pre>
+              <pre>class="<span class="b">t(h54px)</span>"</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+
+
+      <!-- Typography - font-weight -->
+      <article class="[ mb(30px) ]">
+        <h3 class="[ py(10px)  bb(2) ]">Typography &ndash; font-weight</h3>
+        <div class="[ dfw ]">
+          <div class="[ w(100)  w(50)@m ]">
+            <p class="[ t(w100)  mb(20px) ]">Font-weight: 100</p>
+            <p class="[ t(w400)  mb(20px) ]">Font-weight: 400</p>
+            <p class="[ t(w600)  mb(20px) ]">Font-weight: 600</p>
+            <p class="[ t(w700)  mb(20px) ]">Font-weight: 700</p>
+            <p class="[ t(w900)  mb(20px) ]">Font-weight: 900</p>
+          </div>
+          <div class="[ df  w(100)  w(50)@m  pa(30px)  pv(0)@m ]">
+            <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+              <pre>class="<span class="b">t(w100)</span>"</pre>
+              <pre>class="<span class="b">t(w400)</span>"</pre>
+              <pre>class="<span class="b">t(w600)</span>"</pre>
+              <pre>class="<span class="b">t(w700)</span>"</pre>
+              <pre>class="<span class="b">t(w900)</span>"</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+
+
+      <!-- Typography - letter-spacing -->
+      <article class="[ mb(30px) ]">
+        <h3 class="[ py(10px)  bb(2) ]">Typography &ndash; letter-spacing</h3>
+        <div class="[ dfw ]">
+          <div class="[ w(100)  w(50)@m ]">
+            <p class="[ t(ls0.1em)  mb(20px) ]">Letter-spacing: 0.1em</p>
+            <p class="[ t(ls0.2em)  mb(20px) ]">Letter-spacing: 0.2em</p>
+            <p class="[ t(ls5px)  mb(20px) ]">Letter-spacing: 5px</p>
+          </div>
+          <div class="[ df  w(100)  w(50)@m  pa(30px)  pv(0)@m ]">
+            <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+              <pre>class="<span class="b">t(ls0.1em)</span>"</pre>
+              <pre>class="<span class="b">t(ls0.2em)</span>"</pre>
+              <pre>class="<span class="b">t(ls5px)</span>"</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+
+
+      <!-- Typography - Text-shadow -->
+      <article class="[ mb(30px) ]">
+        <h3 class="[ py(10px)  bb(2) ]">Typography &ndash; text-shadow</h3>
+        <div class="[ dfw ]">
+          <div class="[ w(100)  w(50)@m ]">
+            <p class="[ ts(4,4,4,aaa)  mb(20px) ]">Text-shadow:  4px 4px 4px #aaa</p>
+            <p class="[ ts(0,5,10,black)  mb(20px) ]">Text-shadow: 0 5px 10px black</p>
+            <p class="[ ts(0,0,10,3f5fa7)  mb(20px) ]">Text-shadow: 0 0 10px #3f5fa7</p>
+          </div>
+          <div class="[ df  w(100)  w(50)@m  pa(30px)  pv(0)@m ]">
+            <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+              <pre>class="<span class="b">ts(4,4,4,aaa)</span>"</pre>
+              <pre>class="<span class="b">ts(0,5,10,black)</span>"</pre>
+              <pre>class="<span class="b">ts(0,0,10,3f5fa7)</span>"</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+
+
+
+
+    <!-- Responsive Web Design -->
+    <article class="[ mb(50px)  pt(90px) ]" id="rwd">
+      <h3 class="[ py(10px)  bb(2) ]">Responsive Web Design</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100) ]">
+
+          <div class="[ dfw  t(cen)  mb(10px)  pa(20px)  pt(20px)  pb(10px)  ba(1)  bg(green.2)  ani(rwd,i,l,a,8s) ]">
+            <div class="[ w(100)  t(cen)  mb(10px)  py(20px)  ba(1) ]">w(100)</div>
+            <div class="[ w(50)  t(cen)  mb(10px)  py(20px)  ba(1) ]">w(50)</div>
+            <div class="[ w(50)  t(cen)  mb(10px)  py(20px)  ba(1) ]">w(50)</div>
+
+            <div class="[ w(1/3)  t(cen)  mb(10px)  py(20px)  ba(1) ]">w(1/3)</div>
+            <div class="[ w(1/3)  t(cen)  mb(10px)  py(20px)  ba(1) ]">w(1/3)</div>
+            <div class="[ w(1/3)  t(cen)  mb(10px)  py(20px)  ba(1) ]">w(1/3)</div>
+
+            <div class="[ w(1/4)  t(cen,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/4)</div>
+            <div class="[ w(1/4)  t(cen,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/4)</div>
+            <div class="[ w(1/4)  t(cen,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/4)</div>
+            <div class="[ w(1/4)  t(cen,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/4)</div>
+
+            <div class="[ fs(0)  w(1/6)  t(cen,14px,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/6)</div>
+            <div class="[ fs(0)  w(1/6)  t(cen,14px,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/6)</div>
+            <div class="[ fs(0)  w(1/6)  t(cen,14px,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/6)</div>
+            <div class="[ fs(0)  w(1/6)  t(cen,14px,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/6)</div>
+            <div class="[ fs(0)  w(1/6)  t(cen,14px,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/6)</div>
+            <div class="[ fs(0)  w(1/6)  t(cen,14px,ell)  mb(10px)  py(20px)  ba(1) ]">w(1/6)</div>
+          </div>
+          <div class="[ dfw  t(cen)  mb(10px)  pa(20px)  pt(30px)  ba(1)  bg(red.2) ]">
+            <div class="[ w(100)  w(50)@s  w(1/3)@m  w(25)@l  t(cen)  mb(10px)  pa(20px)  ba(1) ]">w(100)<br>  w(50)@s<br>  w(1/3)@m<br>  w(25)@l<br></div>
+            <div class="[ w(100)  w(50)@s  w(1/3)@m  w(25)@l  t(cen)  mb(10px)  pa(20px)  ba(1) ]">w(100)<br>  w(50)@s<br>  w(1/3)@m<br>  w(25)@l<br></div>
+            <div class="[ w(100)  w(50)@s  w(1/3)@m  w(25)@l  t(cen)  mb(10px)  pa(20px)  ba(1) ]">w(100)<br>  w(50)@s<br>  w(1/3)@m<br>  w(25)@l<br></div>
+            <div class="[ w(100)  w(50)@s  w(1/3)@m  w(25)@l  t(cen)  mb(10px)  pa(20px)  ba(1) ]">w(100)<br>  w(50)@s<br>  w(1/3)@m<br>  w(25)@l<br></div>
+          </div>
+        </div>
+        <div class="[ df  w(100)  pt(30px) ]">
+          <div class="[ fg(1)  df  px(30px)  ba(ddd)  r(4) ]">
+            <div class="[ w(100) ]">
+              <pre class="b t(wsn)">w(50)@s = @media screen and (min-width: 576px) { width:50% } </pre>
+              <pre class="b t(wsn)">w(1/3)@m = @media screen and (min-width: 768px) { width:33.333% }</pre>
+              <pre class="b t(wsn)">w(1/4)@l = @media screen and (min-width: 992px) { width:20% }</pre>
+            </div>
+          </div>
+        </div>
+        <div class="[ df  w(100)  py(30px) ]">
+          <div class="[ fg(1) df  px(30px)  ba(ddd)  r(4) ]">
+            <div class="[ w(50) ]">
+              <pre>class="<span class="b">w(100)</span>"</pre>
+              <pre>class="<span class="b">w(50)</span>"</pre>
+              <pre>class="<span class="b">w(25)</span>"</pre>
+              <pre>class="<span class="b">w(1/3)</span>"</pre>
+              <pre>class="<span class="b">w(1/4)</span>"</pre>
+              <pre>class="<span class="b">w(1/6)</span>"</pre>
+            </div>
+            <div class="[ w(50) ]">
+               <pre class="b">w(100) = width:100%</pre>
+              <pre class="b">w(50) = width:50%</pre>
+              <pre class="b">w(25) = width:25%</pre>
+              <pre class="b">w(1/3) = width:33.333%</pre>
+              <pre class="b">w(1/4) = width:20%</pre>
+              <pre class="b">w(1/6) = width:16.666%</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Flex -->
+    <article class="[ mb(50px)  pt(90px) ]" id="flex">
+      <h3 class="[ py(10px)  bb(2) ]">Flex</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100) ]">
+          <div class="[ rel  dfw  jc-sb  t(cen)  mb(10px)  pa(20px)  pt(70px)  ba(1) ]">
+            <pre class="[ abs(cenx)  l(0)  mt(0)  t(wsp)  b ]">class="df jc-sb"<br><span class="bn">display:flex;<br>justify-content:space-between</span></pre>
+            <div class="[ pa(20px,60px)  ba(1)  bg(green.3) ]"></div>
+            <div class="[ pa(20px,60px)  ba(1)  bg(green.3) ]"></div>
+          </div>
+          <div class="[ rel  dfw  jc-sa  t(cen)  mb(10px)  pa(20px)  pt(70px)  ba(1) ]">
+            <pre class="[ abs(cenx)  l(0)  mt(0)  t(wsp)  b ]">class="df jc-sa"<br><span class="bn">display:flex;<br>justify-content:space-around</span></pre>
+            <div class="[ pa(20px,60px)  ba(1)  bg(green.3) ]"></div>
+            <div class="[ pa(20px,60px)  ba(1)  bg(green.3) ]"></div>
+          </div>
+          <div class="[ rel  dfw  jc-cen  t(cen)  mb(10px)  pa(20px)  pt(70px)  ba(1) ]">
+            <pre class="[ abs(cenx)  l(0)  mt(0)  t(wsp)  b ]">class="df jc-cen"<br><span class="bn">display:flex;<br>justify-content:center</span></pre>
+            <div class="[ pa(20px,60px)  ba(1)  bg(green.3) ]"></div>
+            <div class="[ pa(20px,60px)  ba(1)  bg(green.3) ]"></div>
+          </div>
+        </div>
+        <div class="[ df  w(100)  pt(30px) ]">
+          <div class="[ fg(1)  df  px(30px)  ba(ddd)  r(4) ]">
+            <div class="[ w(100) ]">
+              <pre class="b">df = display:flex;</pre>
+              <pre class="b">dfw = display:flex;  flex-wrap:wrap;</pre>
+              <pre class="b">dfc = display:flex;  flex-direction:column;</pre>
+              <pre class="b">dif = display:inline-flex;</pre>
+              <pre class="b">difc = display:inline-flex;  flex-direction:column;</pre>
+
+              <pre class="b">fdc = flex-direction:column;</pre>
+              <pre class="b">fdr = flex-direction:row;</pre>
+              <pre class="b">fdcr = flex-direction:column-reverse;</pre>
+              <pre class="b">fdrr = flex-direction:row-reverse;</pre>
+              <pre class="b">fww = flex-wrap:wrap;</pre>
+              <pre class="b">fwr = flex-wrap:wrap-reverse;</pre>
+              <pre class="b">fwn = flex-wrap:nowrap;</pre>
+              <pre class="b">fg(x) = flex-grow:x;</pre>
+              <pre class="b">fs(x) = flex-shrink:x;</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Grid -->
+    <article class="[ mb(50px)  pt(90px) ]" id="grid">
+      <h3 class="[ py(10px)  bb(2) ]">Grid</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100) ]">
+          <div class="[ rel  dg gg(10px)  gtc(200px-1fr)  jc-sb  t(cen)  mb(10px)  pa(20px)  pt(90px)  ba(1) ]">
+            <pre class="[ abs(cenx)  l(0)  my(0)  t(wsp)  b ]">class="dg gg(10px) gtc(200px-1fr)"<br><span class="bn">display:grid;<br>grid-gap:10px;<br>grid-template-column:200px 1fr;</span>
+            </pre>
+            <div class="[ pa(20px)  ba(1)  bg(green.3) ]"></div>
+            <div class="[ pa(20px)  ba(1)  bg(green.3) ]"></div>
+            <div class="[ pa(20px)  ba(1)  bg(green.3) ]"></div>
+            <div class="[ pa(20px)  ba(1)  bg(green.3) ]"></div>
+          </div>
+        </div>
+        <div class="[ df  w(100)  pt(30px) ]">
+          <div class="[ fg(1)  df  px(30px)  ba(ddd)  r(4) ]">
+            <div class="[ w(100) ]">
+              <pre class="b">dg = display:grid;</pre>
+              <pre class="b">gg(x) = grid-gap:x;</pre>
+              <pre class="b">gtc(x-x...) = grid-template-column:x x...;</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Borders -->
+    <article class="[ mb(30px)  pt(90px) ]" id="borders">
+      <h3 class="[ py(10px)  bb(2) ]">Border</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100)  w(50)@m ]">
+          <div class="[   pa(20px)  ba(1)  w(350px)  bg(d5d8de)  mb(20px) ]">ba = border on all sides</div>
+          <div class="[   pa(20px)  bt(1)  w(350px)  bg(d5d8de)  mb(20px) ]">bt = border top</div>
+          <div class="[   pa(20px)  br(1)  w(350px)  bg(d5d8de)  mb(20px) ]">br = border right</div>
+          <div class="[   pa(20px)  bb(1)  w(350px)  bg(d5d8de)  mb(20px) ]">bb = border bottom</div>
+          <div class="[   pa(20px)  bl(1)  w(350px)  bg(d5d8de)  mb(20px) ]">bl = border left</div>
+          <div class="[   pa(20px)  ba(0)  w(350px)  bg(d5d8de)  mb(20px) ]">ba(0) = border none</div>
+          <div class="[   pa(20px)  by(1)  w(350px)  bg(d5d8de)  mb(20px) ]">by = vertical border</div>
+          <div class="[   pa(20px)  bx(1)  w(350px)  bg(d5d8de)  mb(20px) ]">bx = horizontal border</div>
+          <div class="[   pa(20px)  ba(d)  w(350px)  bg(d5d8de)  mb(20px) ]">ba(d) = border on all sides (style: dashed)</div>
+          <div class="[   pa(20px)  ba(o)  w(350px)  bg(d5d8de)  mb(20px) ]">ba(o) = border on all sides (style: dotted)</div>
+          <div class="[   pa(20px)  ba(10)  w(350px)  bg(d5d8de)  mb(20px) ]">ba(10) = border on all sides (width: 10px)</div>
+        </div>
+        <div class="[ df  w(100)  w(50)@m  pa(30px)  pv(0)@m ]">
+          <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+            <pre>class="<span class="b">ba(1)</span>"</pre>
+            <pre>class="<span class="b">bt(1)</span>"</pre>
+            <pre>class="<span class="b">br(1)</span>"</pre>
+            <pre>class="<span class="b">bb(1)</span>"</pre>
+            <pre>class="<span class="b">bl(1)</span>"</pre>
+            <pre>class="<span class="b">by(1)</span>"</pre>
+            <pre>class="<span class="b">bx(1)</span>"</pre>
+            <pre>class="<span class="b">ba(d)</span>"</pre>
+            <pre>class="<span class="b">ba(o)</span>"</pre>
+            <pre>class="<span class="b">ba(10)</span>"</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Border radius -->
+    <article class="[ mb(30px)  pt(90px) ]" id="border-radius">
+      <h3 class="[ py(10px)  bb(2) ]">Border radius</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100)  w(50)@m ]">
+          <div class="[ dib  pa(20px)  r(5)  ba(1)  mb(20px)  mr(20px) ]">r(5)</div>
+          <div class="[  dib pa(20px)  r(15)  ba(1)  mb(20px)  mr(20px) ]">r(15)</div>
+          <div class="[ dib  pa(20px)  r(p)  ba(1)  mb(20px)  mr(20px) ]">r(p) - a capsule shape</div>
+          <div class="[ dib  pa(20px)  r(c)  ba(1)  mb(20px)  mr(20px) ]">r(c)</div>
+          <div class="[ dib  pa(20px)  r(t,8)  ba(1)  mb(20px)  mr(20px) ]">r(t,8) = top 8px</div>
+          <div class="[ dib  pa(20px)  r(r,8)  ba(1)  mb(20px)  mr(20px) ]">r(r,8) = right 8px</div>
+          <div class="[ dib  pa(20px)  r(b,8)  ba(1)  mb(20px)  mr(20px) ]">r(b,8) = bottom 8px</div>
+          <div class="[ dib  pa(20px)  r(l,8)  ba(1)  mb(20px)  mr(20px) ]">r(l,8) = left 8px</div>
+          <div class="[ dib  pa(20px)  r(tl,20)  ba(1)  mb(20px)  mr(20px) ]">r(tl,20) = top-left 20px</div>
+          <div class="[ dib  pa(20px)  r(tr,20)  ba(1)  mb(20px)  mr(20px) ]">r(tr,20) = top-right 20px</div>
+          <div class="[ dib  pa(20px)  r(bl,20)  ba(1)  mb(20px)  mr(20px) ]">r(bl,20) = bottom-left 20px</div>
+          <div class="[ dib  pa(20px)  r(br,20)  ba(1)  mb(20px)  mr(20px) ]">r(br,20) = bottom-right 20px</div>
+        </div>
+        <div class="[ df  w(100)  w(50)@m  pa(30px)  pv(0)@m ]">
+          <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+            <pre>class="<span class="b">r(5)</span>"</pre>
+            <pre>class="<span class="b">r(15)</span>"</pre>
+            <pre>class="<span class="b">r(p)</span>"</pre>
+            <pre>class="<span class="b">r(c)</span>"</pre>
+            <pre>class="<span class="b">r(t,8)</span>"</pre>
+            <pre>class="<span class="b">r(r,8)</span>"</pre>
+            <pre>class="<span class="b">r(b,8)</span>"</pre>
+            <pre>class="<span class="b">r(l,8)</span>"</pre>
+            <pre>class="<span class="b">r(tl,20)</span>"</pre>
+            <pre>class="<span class="b">r(tr,20)</span>"</pre>
+            <pre>class="<span class="b">r(bl,20)</span>"</pre>
+            <pre>class="<span class="b">r(br,20)</span>"</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Color -->
+    <article class="[ mb(50px)  pt(90px) ]" id="color">
+      <h3 class="[ py(10px)  bb(2) ]">Color</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100)  w(50)@m ]">
+          <div class="[ dib  px(20px)  mb(20px)  mr(20px)  t(25px,w900)  c(red) ]">red</div>
+          <div class="[  dib px(20px)  mb(20px)  mr(20px)  t(25px,w900)  c(green) ]">green</div>
+          <div class="[ dib  px(20px)  mb(20px)  mr(20px)  t(25px,w900)  c(blue) ]">blue</div>
+
+          <div class="[ dib  px(20px)  mb(20px)  mr(20px)  t(25px,w900)  c(789767) ]">#789767</div>
+          <div class="[  dib px(20px)  mb(20px)  mr(20px)  t(25px,w900)  c(blue.5) ]">blue<br>alpha=0.5</div>
+          <div class="[ dib  px(20px)  mb(20px)  mr(20px)  t(25px,w900)  c(789767.3) ]">#789767<br>alpha=0.3</div>
+
+          <div class="[ dib  pa(20px)  px(60px)  mb(20px)  mr(20px)  bg(red) ]">red</div>
+          <div class="[  dib pa(20px)  px(60px)  mb(20px)  mr(20px)  bg(green) ]">green</div>
+          <div class="[ dib  pa(20px)  px(60px)  mb(20px)  mr(20px)  bg(blue) ]">blue</div>
+
+          <div class="[ dib  pa(20px)  px(60px)  mb(20px)  mr(20px)  bg(789767) ]">#789767</div>
+          <div class="[  dib pa(20px)  px(60px)  mb(20px)  mr(20px)  bg(blue.5) ]">blue<br>alpha=0.5</div>
+          <div class="[ dib  pa(20px)  px(60px)  mb(20px)  mr(20px)  bg(789767.3) ]">#789767<br>alpha=0.3</div>
+        </div>
+        <div class="[ df  w(100)  w(50)@m  pa(30px)  pv(0)@m ]">
+          <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+            <pre>class="<span class="b">c(red)</span>"</pre>
+            <pre>class="<span class="b">c(green)</span>"</pre>
+            <pre>class="<span class="b">c(blue)</span>"</pre>
+
+            <pre>class="<span class="b">c(789767)</span>"</pre>
+            <pre>class="<span class="b">c(blue.5)</span>"</pre>
+            <pre>class="<span class="b">c(789767.3)</span>"</pre>
+
+            <pre>class="<span class="b">bg(red)</span>"</pre>
+            <pre>class="<span class="b">bg(green)</span>"</pre>
+            <pre>class="<span class="b">bg(blue)</span>"</pre>
+
+            <pre>class="<span class="b">bg(789767)</span>"</pre>
+            <pre>class="<span class="b">bg(blue.5)</span>"</pre>
+            <pre>class="<span class="b">bg(789767.3)</span>"</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Pseudo -->
+    <article class="[ mb(30px)  pt(90px) ]" id="pseudo">
+      <h3 class="[ py(10px) bb(2) ]">Pseudo</h3>
+      <div class="[ dfw ]">
+        <div class="[ w(100)  w(50)@m ]">
+          <div class="[ dib  pa(30px)  mr(20px)  mb(20px)  bg(gold)  h:bg(red)  r(5) ]">hover me</div>
+          <div class="[ dib  pa(25px)  mr(20px)  mb(20px)  bg(blue)  ba(5,blue)  a:ba(5,purple)  r(5) ]">click me</div>
+          <input class="[ pa(15px)  mr(20px)  mb(20px)  bg(t)  ba(5,999)  f:ba(5,blue)  r(5)  bo(0) ]" type="text" placeholder="click me to get focus">
+          <input class="[ pa(15px)  mr(20px)  mb(20px)  bg(t)  ba(5,999)  hov:ba(5,blue)  r(5)  bo(0) ]" type="text" placeholder="mouse over me and click">
+        </div>
+        <div class="[ df  w(100)  w(50)@m  pa(30px) ]">
+          <div class="[ fg(1)  t(l)  px(30px)  ba(ddd)  r(4) ]">
+            <pre>class="<span class="b">h:bg(red)</span>"</pre>
+            <pre>class="<span class="b">a:ba(5,purple)</span>"</pre>
+            <pre>class="<span class="b">f:ba(5,blue)</span>"</pre>
+            <pre>class="<span class="b">hov:ba(5,blue)</span>"</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </section>
+  <!-- end of Style guide -->
+
+
+
+
+
+  <div class="dfw">
+    <div class="[ w(20)  pa(20px)  bg(red.2) ]"></div>
+    <div class="[ w(20)  pa(20px)  bg(green.2) ]"></div>
+    <div class="[ w(20)  pa(20px)  bg(blue.2) ]"></div>
+    <div class="[ w(20)  pa(20px)  bg(orange.2) ]"></div>
+    <div class="[ w(20)  pa(20px)  bg(purple.2) ]"></div>
+  </div>
+
+
+
+
+
+<!-- page-foot -->
+  <footer class="page-foot  [ pa(20px)  bg(3f5fa7) ]">
+    <p class="page-foot__text  [ mb(0)  t(cen,14px,w400,ls5)  c(fff) ]">© 2017, UralsCss,
+      <a class="page-foot__link  [ t(ui)  c(fff) ]" href="https://github.com/seraga" target="_blank">Seraga</a>
+    </p>
+  </footer>
+  <!-- end of page-foot -->
+
+</body>
+</html>
