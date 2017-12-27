@@ -1,4 +1,4 @@
-# uralscss
+# UralsCss
 
 https://uralscss.firebaseapp.com/
 
