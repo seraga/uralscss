@@ -8,7 +8,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: {
     app: './src/app.js',
-    vendor: ['./src/js/urals'],
+    // vendor: ['./src/js/urals'],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -48,7 +48,7 @@ module.exports = {
   },
   plugins: [
     // new UglifyJSPlugin(),
-    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'uralscss.min.js' }),
+    // new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'uralscss.min.js' }),
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
