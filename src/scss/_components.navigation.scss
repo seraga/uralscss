@@ -6,16 +6,19 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  @include media(sm) { flex-direction: row; }
+  @include media(md) { flex-direction: row; }
+  padding-top: 10px;
+  @include media(md) { padding-top: 0; }
 }
 
 .navigation__link {
   display: none;
-  @include media(sm) { display: block; }
+  @include media(md) { display: block; }
   padding: 14px 16px;
 
   font-weight: bold;
-  font-size: 11px;
+  font-size: 14px;
+  @include media(md) { font-size: 11px; }
   @include media(xl) { font-size: 14px; }
   text-decoration: none;
   white-space: pre;
@@ -35,7 +38,7 @@
 .navigation__toggle {
   position: absolute;
   display: block;
-  @include media(sm) { display: none; }
+  @include media(md) { display: none; }
   top: 14px;
   right: 16px;
 
